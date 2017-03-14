@@ -1,11 +1,14 @@
 module.exports = { 
 
-words:function (word) {
-var splitWord = word.split(" ");  
+words: function (word) {
+var newText = word.replace(/[\s]+/, " ");
+
+var splitWord = newText.split(" ");  
 var wordCount = {};
   
   for (var i = 0;i<splitWord.length;i++) {
     var eachWord = splitWord[i];
+
      
       if (wordCount.hasOwnProperty(eachWord)) {
           wordCount[eachWord]++;
@@ -17,4 +20,5 @@ var wordCount = {};
   return wordCount;
 }
 
- }
+
+}

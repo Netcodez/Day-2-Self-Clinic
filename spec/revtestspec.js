@@ -1,5 +1,5 @@
 
-var reverseString = require('./apps/rev.js').rev;
+var reverseString = require('../apps/rev.js').rev;
 describe("Produce the reverse order of a word: ", function() {
   describe("Case for en empty string", function() {
 
