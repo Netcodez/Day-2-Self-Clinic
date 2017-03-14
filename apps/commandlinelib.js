@@ -5,7 +5,7 @@ var client = new Twitter({
   api_key:'U8dqeKAECXkURURfCBlrAhiMW',
   api_secret:'Bh9w7mif2LcqyoZRmU7XbvIFKwjWFKBlGeV16XEfsStb2DW9PC',
   oauth_token:'81451848-qZ8DIIN2p2F4dxl9BW9E57xpoOrpMx604Kx99QTYK',
-oauth__token_secret:'bl7WAeoUaNboNcnSLAcy4SFULdZ6ZO55M2aazzhJTBNeZ'
+  oauth__token_secret:'bl7WAeoUaNboNcnSLAcy4SFULdZ6ZO55M2aazzhJTBNeZ'
 
 
 });
