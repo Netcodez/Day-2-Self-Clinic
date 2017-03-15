@@ -11,8 +11,8 @@
     "url": "git+https://github.com/Netcodez/Day-2-Self-Clinic.git"
   },
   "keywords": [
-    "WordCount",
-    "reverseString"
+    "api",
+    "geocode"
   ],
   "author": "Neto Onyiaji",
   "license": "ISC",
