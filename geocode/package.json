@@ -1,0 +1,30 @@
+{
+  "name": "Day-2-Self-Clinic",
+  "version": "1.0.0",
+  "description": "This repository hold my project labs for day 2. These consist of a TDD based group of functions, all available with their test codes, and a command-line HTTP project implemented to consume a public API.",
+  "main": "geocode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Netcodez/Day-2-Self-Clinic.git"
+  },
+  "keywords": [
+    "WordCount",
+    "reverseString"
+  ],
+  "author": "Neto Onyiaji",
+  "license": "ISC",
+  "bin": {
+    "geocode": "/Users/Netochukwu/Day-2-Self-Clinic/apps/geocode/geocode/geocode.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Netcodez/Day-2-Self-Clinic.git"
+  },
+  "homepage": "https://github.com/Netcodez/Day-2-Self-Clinic.git",
+  "dependencies": {
+    "@google/maps": "^0.3.1",
+    "commander": "^2.9.0",
+  }
+}
