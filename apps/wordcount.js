@@ -1,24 +1,23 @@
-module.exports = { 
+module.exports = {
+  words : function (word) {
+    var newText = word.replace(/[\s]+/, " ");    //this is a regular expression to remove non string characters
 
-words : function (word) {
-var newText = word.replace(/[\s]+/, " ");
-
-var splitWord = newText.split(" ");  
-var wordCount = {};
+    var splitWord = newText.split(" ");           // this splits the string into seperate words in an array
+    var wordCount = {};
   
-  for (var i = 0;i<splitWord.length;i++) {
-    var eachWord = splitWord[i];
+    for (var i = 0;i<splitWord.length;i++) {
+      var eachWord = splitWord[i];
 
      
       if (wordCount.hasOwnProperty(eachWord)) {
-          wordCount[eachWord]++;
+          wordCount[eachWord]++;                  // this line of counts the number the times word appears
       } 
       else {
           wordCount[eachWord] = 1;
       }
+    }
+    return wordCount;
   }
-  return wordCount;
-}
 
 
  }
