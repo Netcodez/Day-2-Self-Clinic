@@ -6,6 +6,8 @@ word count, reverse string, a simple command line that consumes an API
 To run the test first  run the command npm install  in the Node.js command prompt  to have the dependencies installed in your computer
 Then run the command npm test
 To run the geocode  program simply run the following command in Node.js:node geocode/geocode.js address where address is the place you want to find its longitude and latitude
+
+
 CODING QUESTIONS ON DAY 2
 
 Write a function called *words* that takes in a string argument and counts the occurrences of each word in the string.
